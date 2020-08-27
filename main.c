@@ -318,6 +318,7 @@ void free_books(book * vector, int n) {
     book * final = vector + n;
     for(; aux < final; ++aux) {
         free(aux->title);
+        aux->title = NULL;
     }
     free(vector);
 }
