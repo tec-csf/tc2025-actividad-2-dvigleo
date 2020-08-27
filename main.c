@@ -169,7 +169,7 @@ void traverse_books() {
         }
 
         while(option2 != 4) {
-            printf("\n\t1 - Forward\n\t2 - Backward\n\t3 - Bidirectional\n\t4 - Iterate over elements \n\t5 - Back to main menu\n\t6- Exit program\n");
+            printf("\n\t1 - Forward\n\t2 - Backward\n\t3 - Bidirectional\n\t4 - Iterate over elements \n\t5 - Back to main menu\n\t6 - Exit program\n");
             printf("\nSelect an option (1-5): ");
             scanf("%d", &option2);
 
